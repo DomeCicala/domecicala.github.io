@@ -1,6 +1,5 @@
 const navDropShad = document.getElementById("gradient");
 
-
 let maxNavHeight = window.innerHeight * 26.88 / 100;
 let minNavHeight = window.innerHeight * 7.53 / 100;
 
