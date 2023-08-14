@@ -1,5 +1,9 @@
 const navDropShad = document.getElementById("drop");
 
+addEventListener("DOMContentLoaded", async function() {
+    calcNavHeight();
+});
+
 addEventListener("scroll", calcNavHeight);
 
 async function calcNavHeight()  {
@@ -10,7 +14,3 @@ async function calcNavHeight()  {
     if (calc < 70) calc = 70;
     navDropShad.style.height = `${calc}px` 
 }
-
-addEventListener("DOMContentLoaded", async function() {
-    calcNavHeight();
-});
