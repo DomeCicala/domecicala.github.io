@@ -2,14 +2,28 @@
 /* butto ore della mia vita a risolvere problemi che mi creo 
 io perché ho due neuroni contati quando programmo --FalB */
 
-#gradient {
+
+footer, main, nav, #gradient {
     width: 100%;
+}
+
+nav, #gradient {
     height: 250px;
     position: fixed;
     top: 0;
     left: 0;
-    color: #fff;
+}
+
+#gradient {
     background: linear-gradient(rgba(0, 0, 0, 0.801) 2%, #0000);
+}
+
+nav {
+    color: #fff;
+}
+
+main {
+    
 }
 
 footer {
